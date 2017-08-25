@@ -1,0 +1,13 @@
+K-Means Kümeleme Kullanarak a*b* Renk Uzayını Sınıflandırma
+
+Algoritma
+1) Lab uzayına dönüştürülen resmin a ve b bileşenlerini al ve ab vektörü oluştur. 
+2) ab vektörünün satır(256) ve sütun(256) bilgisini oluştur. 
+3) ab vektörünün elemanlarından 256*256x2’lik bir matris oluştur. 
+4) a ve b değerlerinden oluşan bu matrisin elemanlarını K-Means ile n kümeye böl. 
+5) K-means sonuçlarını kullanarak her pikseli etiketle. 
+6) for küme no = 1’den küme sayısına kadar 
+        Contrastı artırılmış görüntüyü al.
+	      Etiketlenmiş 256*256 tane olan her bir pikselin küme numarası ‘küme no’ olmayanlara 0 ata.
+	      Küme sayısı kadar oluşan yeni matrisleri tut. 
+   end
